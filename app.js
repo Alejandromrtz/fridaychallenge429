@@ -30,7 +30,7 @@ let arrowMyFunction = (num1, num2) => {
 
 let x = (first , second) => {
     let count = 0;
-    //loops thru array 
+    //loops thru string 
     for (let i = 0; i < first.length; i++) {
         //adds 1 to count every loop
         if(first[i].toLowerCase().includes(second)) {
